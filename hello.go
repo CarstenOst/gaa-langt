@@ -1,17 +1,13 @@
-package main
+package hello
 
 import (
-	"fmt"
-
 	"rsc.io/quote"
 )
 
-func main() {
-	loop2(5)
-}
+func pithySay(arrIndex int) string {
 
-func loop2(amountOfLoops int) {
-	for i := 0; i < amountOfLoops; i++ {
-		fmt.Println(quote.Go(), &i)
-	}
+	pithySayings := [4]string{quote.Glass(), quote.Go(), quote.Hello(), quote.Opt()}
+
+	return pithySayings[arrIndex]
+
 }
