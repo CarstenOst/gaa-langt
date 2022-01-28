@@ -1,4 +1,4 @@
-module carstenost.io/gaalangt
+module github.com/CarstenOst/gaalangt
 
 go 1.17
 
