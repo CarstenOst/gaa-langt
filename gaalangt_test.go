@@ -18,7 +18,7 @@ var phraseResult = []PhraseResult{
 
 func TestPithyArray(t *testing.T) {
 	for i, test := range phraseResult {
-		if result := pithySay(i); result != test.expected {
+		if result := PithySay(i); result != test.expected {
 			t.Errorf("greetings() = %q, want %q", result, phraseResult)
 		}
 	}
