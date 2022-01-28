@@ -1,4 +1,4 @@
-module example/gaalangt
+module carstenost.io/gaalangt
 
 go 1.17
 
